@@ -14,7 +14,7 @@ Operating as **Nativerse Ventures** · London · Human-in-the-loop, in-scope onl
 - **Google Agent Development Kit** — authored an SSRF-protection fix for `RestApiTool._request()` → [google/adk-python#5760](https://github.com/google/adk-python/pull/5760)
 - **picklescan** (Hugging Face Hub's pickle malware scanner) — reporter on a denylist-bypass code-execution advisory, `GHSA-x5w2-265w-4cph` *(in maintainer triage)*
 - **dexidp/dex** — reporter on an OAuth connector-ACL bypass, `GHSA-gqgv-7xgf-8w9m` *(in maintainer triage)*
-- **[gmail-oauth-research](https://github.com/Neelagiri65/gmail-oauth-research)** — code-pattern audit across 2M+ repositories, surfacing 124 open-source projects that key Google OAuth on the mutable `email` field instead of the stable `sub` claim
+- **[gmail-oauth-research](https://github.com/Neelagiri65/gmail-oauth-research)** — a large-scale code-pattern audit surfacing open-source projects that key Google OAuth on the mutable `email` field instead of the stable `sub` claim
 - **[authdrift](https://github.com/Neelagiri65/authdrift)** — static analysis for OAuth handlers that break when a user changes their Gmail address
 
 ### Tools I maintain
